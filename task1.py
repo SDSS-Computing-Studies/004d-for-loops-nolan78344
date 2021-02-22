@@ -19,5 +19,5 @@ Enter number:4
 """
 
 x = int(input("Please enter number "))
-for i in range(0,13):
-    print(x * i)
+for i in range(1,13):
+    print(x * i, end=" ")
