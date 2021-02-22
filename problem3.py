@@ -17,3 +17,7 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+
+int(input("Please enter number "))
+    if i %10 == 0:
+        print()

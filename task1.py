@@ -17,3 +17,7 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+x = int(input("Please enter number "))
+for i in range(0,13):
+    print(x * i)
