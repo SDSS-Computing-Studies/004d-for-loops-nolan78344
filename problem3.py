@@ -18,11 +18,9 @@ enter a number: 4
 the sum of the series is 1234
 """
 
-number = int(input("Enter an integer. "))
-
-print("the sum of is the series is ", end=" ")
-
-if number < 10:
-    for i in range(1,number+1):
-        number = i
-        print((number), end="")
+x = int(input("Please enter integer "))
+print("the sum of the series is ",end="")
+if x < 10:
+    for i in range(1,x+1):
+        x = i
+        print((x), end="")
