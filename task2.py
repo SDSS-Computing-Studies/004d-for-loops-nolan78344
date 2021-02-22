@@ -27,7 +27,7 @@ x = str(input("Please enter name "))
 
 for i in nameList:
     if i == x:
-        print("That name is in the list")
+        print("That name is on the list")
         break
 else:
         print("That name is not in the list")
