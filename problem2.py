@@ -44,6 +44,6 @@ if x >= 0 and x%1 == 0:
     x = int(x)
     for i in range(1,x+1):
         answer *= i
-        print (x +"!" + "is" + i)
+        print (str(x) +"!" + " is " + str(i))
 else:
     print ("Invalid input")
