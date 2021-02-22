@@ -30,4 +30,4 @@ for i in nameList:
         print("That name is on the list")
         break
 else:
-        print("That name is not in the list")
+        print("That name is not on the list")
