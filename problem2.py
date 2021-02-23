@@ -45,7 +45,7 @@ if x >= 0 and x%1 == 0:
     while (y < x):
         y = y + 1
         z = y * z
-    print (str(x) +"!" + " is " + str(z))
+    print (str(int(x)) +"!" + " is " + str(z))
 else:
     print ("Invalid input")
 
